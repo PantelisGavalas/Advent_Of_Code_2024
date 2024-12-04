@@ -2,7 +2,7 @@ list1 = []
 list2 = []
 
 #with open("C:\\Users\\gavalas\\Desktop\\Advent_of_Code_2024\\day1_problem2_input.txt", "r") as file:
-with open("./day1_problem2_input.txt", "r") as file:
+with open("day_1\problem2\input.txt", "r") as file:
     
     for line in file:
         num1, num2 = map(int, line.strip().split())

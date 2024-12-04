@@ -23,7 +23,7 @@ def report_parser(report):
         return 0
 
 
-with open('./day2_problem2_input.txt', "r") as file:
+with open("day_2\problem2\input.txt", "r") as file:
 
     safe_reports = 0
 

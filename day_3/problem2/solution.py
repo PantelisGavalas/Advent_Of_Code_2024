@@ -1,6 +1,6 @@
 import re
 
-with open('day_3\problem2\day3_problem2_input.txt', "r") as file:
+with open("day_3\problem2\input.txt", "r") as file:
     
     instructions = ""
     

@@ -8,7 +8,7 @@ def safe_report(report):
         return 1
 
 
-with open('./day2_problem1_input.txt', "r") as file:
+with open("day_2\problem1\input.txt", "r") as file:
 
     safe_reports = 0
 

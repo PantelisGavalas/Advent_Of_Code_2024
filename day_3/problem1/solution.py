@@ -1,6 +1,6 @@
 import re
 
-with open('day_3\problem1\day3_problem1_input.txt', "r") as file:
+with open("day_3\problem1\input.txt", "r") as file:
     
     instructions = []
     
