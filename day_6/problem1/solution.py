@@ -35,7 +35,7 @@ def movement(guard_pos, guard_orient, lab_map):
     elif (guard_orient == '<') and (guard_pos[1] == 0) :
         lab_map[guard_pos[0]][guard_pos[1]] = 'X'
         return
-    elif (guard_orient == '>') and (guard_pos[1] == len(lab_map[guard_pos[0]])) :
+    elif (guard_orient == '>') and (guard_pos[1] == len(lab_map[guard_pos[0]])-1) :
         lab_map[guard_pos[0]][guard_pos[1]] = 'X'
         return
     
